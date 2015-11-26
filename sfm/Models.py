@@ -1,8 +1,8 @@
 
 import os
 import shutil
-from pwd import getpwuid
-from grp import getgrgid
+
+
 
 import magic
 

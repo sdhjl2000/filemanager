@@ -8,7 +8,7 @@ from tornado.options import define, options
 from sfm.Handlers import FileListHandler, UploadHandler, MainWsHandler, AuthHandler, DownloadHandler, ExitHandler
 
 define("server_address", default="127.0.0.1", help="bind given ip or hostname", type=str)
-define("server_port", default=8000, help="bind given port", type=int)
+define("server_port", default=80, help="bind given port", type=int)
 
 
 class Application(web.Application):
